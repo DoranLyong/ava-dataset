@@ -8,6 +8,20 @@ https://s3.amazonaws.com/ava-dataset/test/[file_name]
 ```
 You can download the list of training/validation file names [here](https://s3.amazonaws.com/ava-dataset/annotations/ava_file_names_trainval_v2.1.txt), and the test filenames [here](https://s3.amazonaws.com/ava-dataset/annotations/ava_file_names_test_v2.1.txt).
 
+**(edit)**
+
+```bash
+# download for trainval dataset
+cd ./trainval 
+bash ../download_trainval.sh ./ava_file_names_trainval_v2.1.txt
+```
+
+```bash
+# download for test dataset
+cd ./test 
+bash ../download_test.sh ./ava_file_names_test_v2.1.txt
+```
+
 ## Download Annotations
 The public annotations, for the training and validation sets, can be downloaded here [ava_v2.2.zip](https://s3.amazonaws.com/ava-dataset/annotations/ava_v2.2.zip).
 
